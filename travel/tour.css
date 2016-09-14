@@ -1,0 +1,105 @@
+body{
+	background-color: #b5a789;
+	font-family: George,"Times New Roman",Times,serif;
+	font-size: small;
+	margin: 0px;
+}
+h2 span{ 
+	position: absolute;
+	top: 10px;
+	left: 10px;
+    color: white; 
+    font-style: bold;
+    font-family: Helvetica, Sans-Serif; 
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px; 
+}
+
+.logo{
+	border-color: #675c47;
+	border-width: 0px;
+	margin: 10px;
+	border-style: groove;
+}
+.head{
+	border-color: #675c47;
+	border-style: groove;
+	border-width: 0px;
+	margin-top:10px;
+	margin-left: 0px;
+	position: absolute;
+	left: 710px;
+}
+#header{
+	
+	background-color: #675c47;
+	margin: 10px 10px 0px 10px;
+	height: 225px; 
+}
+#tableContainer{
+	display: table;
+	border-spacing: 10px;
+}
+#tableRow{
+	display: table-row;
+}
+
+#main{
+	display: table-cell;
+	background: #efe5d0 url(travel/tour/bgimage.jpg) top left;
+	font-size: 105%;
+	padding: 15px;
+	vertical-align: top;	
+}
+	#sidebar{
+		display: table-cell;
+		background: #efe5d0 url(travel/tour/book.png) bottom right;
+		font-size: 105%;
+		padding: 15px;
+		vertical-align: top;
+	}
+
+	#footer{
+		background-color: #675c47;
+		color: #efe5d0;
+		text-align: center;
+		padding: 15px;
+		margin: 0px 10px 10px 10px;
+		font-size: 90%;
+	}
+	h1{
+	margin-top:10px;
+    margin-bottom:10px;
+	font-size: 120%;
+	color: #954b4b;
+}
+h3{
+	margin-top:10px;
+    margin-bottom:5px;
+	font-size: 105%;
+	color: #954b4b;
+}
+a:link{
+		
+		text-decoration: none;
+		border-bottom: none;
+	}
+	a:visited{
+		
+		text-decoration: none;
+		border-bottom: none;
+	}
+	.tour{
+		text-align: center;
+		line-height: 1.8em;
+	}
+	.slogan{
+		color: #954b4b;
+	}
+	.tab{
+		color: #996600; 
+	}
+	p.space{
+		line-height: 80%;
+	}
